@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Тест</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="main.js"></script>
     <style>
     @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
     </style>
@@ -126,7 +127,7 @@
 
         <div class="gallery-button__container">
 
-            <button class="gallery__button">КАК ПРОЕХАТЬ</button>
+            <button class="gallery__button" id="map">КАК ПРОЕХАТЬ</button>
             <button class="gallery__button">ОБРАТНАЯ СВЯЗЬ</button>
 
         </div>
@@ -181,6 +182,11 @@
 
     </div>
 
+</div>
+
+<div class="map__container" id="map__overlay-container">
+    <div class="map__overlay"></div>
+    <div class="map__close-button"></div>
 </div>
 
 <footer>
